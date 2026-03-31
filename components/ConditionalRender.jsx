@@ -1,0 +1,9 @@
+function ConditionalRender(){
+    const isloggedIn =false;
+    return(
+        <div>
+            { isloggedIn ? <h2>Welcome User</h2>:<h2>Please Login</h2>}
+        </div>
+    );
+}
+export default ConditionalRender;
